@@ -1,5 +1,6 @@
-.body {
+body {
     margin: 0 auto;
+    background-color: #DAE2E8 !Important;
 }
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
@@ -7,6 +8,9 @@ h1, h2, h3 , h4, h5, h6 {
   }
   p {
     font-family: 'Jura', sans-serif;
+    margin-top: 20px;
+    width: 700px;
+   
   }
   
   /* Navigation bar */
@@ -71,18 +75,16 @@ h1, h2, h3 , h4, h5, h6 {
     min-width: 500px;
     max-width: 700px;
     color: #203B31;
-    text-align: left;
-    text-transform: bold;
+    
   }
 
   /* Overview */
 .Overview {
-    padding: 20px;
+    padding: 50px;
     display: flexbox;
 }
 .role {
     width: 635px;
-    padding: 20 0 20 0;
 }
 .quote{
     text-align: center;
@@ -100,30 +102,84 @@ h1, h2, h3 , h4, h5, h6 {
  /* Problem */
 
  .Problem {
-     padding: 20px;
+     padding: 50px;
      display: flexbox;
      margin-top: 150px;
+     
  }
 
-.Problem img {
-    margin-top: 75px;
+.journey {
+    margin-top: 50px;
+    width: 0 auto;
 }
- /* Problem */
+
+.journeyP {
+  margin-top: 20px;
+}
 
  .Research {
-     padding: 20px;
+     padding: 50px;
  }
-  /* Cards */
-.content {
-    padding: 50px;
-  }
-  .sectionHeading {
-    text-align: center;
-  }
-  .showsNear  {
-    padding: 0px 30px 30px 30px;
-  }
-  .cardContainer {
-    text-align: center;
-  }
+
   
+/* Research */
+
+.content {
+  margin-top: 50px;
+}
+
+
+/* Insights*/
+
+.insights {
+  margin-top: 50px;
+}
+
+
+/* Personas*/
+
+.personas {
+  margin-top: 100px;
+}
+
+/* Ideation */
+.ideation {
+  margin-top: 200px;
+}
+
+/* Design */
+
+.design {
+  margin-top: 200px;
+}
+
+.sketch {
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;
+  margin-left: 180px;
+}
+
+/* LoFi */
+
+.loFi {
+  margin-top: 200px;
+}
+
+/* HiFi */
+
+.hiFi {
+  margin-top: 200px;
+}
+
+/* Lessons */
+
+.lessonsLearned {
+  margin-top: 200px;
+  width: 750px;
+}
+
+.lessonList {
+  margin-top: 20px;
+  width: 650px;
+}
